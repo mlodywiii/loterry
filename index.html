@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Win the Lottery!</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="aloha">Aloha</h1>
+      <h2>Found a special code on your shampoo bottle?</h2>
+      <p>Enter it below to see if you've won something!</p>
+    </header>
+    <main>
+      <div class="code-entry">
+        <input type="text" id="codeInput" placeholder="Enter your unique code">
+        <button id="submitButton">Check My Prize</button>
+      </div>
+      <div id="result" class="hidden">
+        <h2>Congratulations!</h2>
+        <p>You have won a fully-paid professional hair salon visit! Enjoy your well-deserved new haircut whenever your hair are long again. Your visit will be fully covered by our sponsor, once you book it at any salon of your choice.</p>
+        <p><em>This prize is sponsored by <strong>T&M Love</strong>. It's a company founded in Berlin, owned by Michał Wiwatowski.</em></p>
+      </div>
+    </main>
+    <footer>
+      <p>Scan the QR code to visit this page:</p>
+      <img src="qr-code.png" alt="QR Code" class="qr-code">
+    </footer>
+  </div>
+</body>
+</html>
